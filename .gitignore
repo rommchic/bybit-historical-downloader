@@ -1,0 +1,24 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Downloaded market data
+bybit_data/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+'@ | Set-Content -Encoding utf8 .gitignore
